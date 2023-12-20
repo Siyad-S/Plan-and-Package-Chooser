@@ -1,0 +1,90 @@
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+.profile {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.116);
+}
+.profile:hover {
+    cursor: pointer;
+}
+.prifile_name {
+    display: flex;
+    align-items: center;
+}
+.prifile_name i {
+    font-size: 20px;
+    color: #73ACDA;
+}
+.profile_img {
+    width: 100px;
+    height: 100px;
+}
+.profile_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    box-shadow: 6px 0 10px rgba(0, 0, 0, 0.116);
+}
+.dashboard ul {
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.dashboard ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgb(234, 230, 230);
+    
+}
+.dashboard ul li:hover {
+    background-color: #B1E7FF;
+    cursor: pointer;
+}
+.dashboard ul li p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.dashboard ul li i {
+    color: #0173CA;
+}
+.logout_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+.logout_btn button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #0173CA;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logout_btn button:hover {
+    background-color: #B1E7FF;
+}
+.logout_btn button i {
+    font-size: 12px;
+}
+

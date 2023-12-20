@@ -1,0 +1,66 @@
+.package_type_card {
+    display: flex;
+    padding: 20px;
+    box-shadow: -5px 5px 15px rgba(167, 166, 166, 0.2), 5px 2px 15px rgba(167, 166, 166, 0.2), 0 2px 5px rgba(167, 166, 166, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.package_type_card:hover {
+    transform: scale(1.1);
+}
+.package_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.package_title p{
+    max-width: 225px;
+}
+.package_title span {
+    font-size: 12px;
+    border: 1px solid transparent;
+    width: fit-content;
+    padding: 3px 3px;
+    border-radius: 20px;
+}
+.package_getStarted {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: transparent;
+    border-radius: 5px;
+    gap: 7px;
+    padding: 6px;
+}
+.package_features {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.package_features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.package_features p {
+    max-width: 200px;
+}
+.package_features ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.package_features ul li:last-child {
+    align-items: flex-start;
+}
+.package_title button {
+    font-size: 13px;
+}
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+

@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E3F1FE;
+}
+.company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.company_name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+    background-color: white;
+    box-shadow: -5px 5px 15px rgba(167, 166, 166, 0.352), 5px 2px 15px rgba(167, 166, 166, 0.352), 0 2px 5px rgba(167, 166, 166, 0.352);
+    border-radius: 5px;
+}
+.company_name:hover {
+    background-color: #dcecfb;
+    cursor: pointer;
+}
+.company_selector button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  6px;
+    background-color: white;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px rgba(167, 166, 166, 0.352), 5px 2px 15px rgba(167, 166, 166, 0.352), 0 2px 5px rgba(167, 166, 166, 0.352);
+}
+.company_selector button:hover {
+    background-color: #dcecfb;
+    cursor: pointer;
+}
+.company_icon {
+    width: 20px;
+    height: 20px;
+    border: transparent;
+    display: flex;
+    align-items: center;
+}
+.company_icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.page_icon {
+    width: 310px;
+    height: 130px;
+}
+.page_icon img {
+    width: 100%;
+    height: 100%;
+}

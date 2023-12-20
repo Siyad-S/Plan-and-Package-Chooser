@@ -1,0 +1,75 @@
+.plans {
+    padding: 10px 30px;
+    box-shadow: -5px 5px 15px rgba(167, 166, 166, 0.2), 5px 2px 15px rgba(167, 166, 166, 0.2), 0 2px 5px rgba(167, 166, 166, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.plans:hover {
+    transform: scale(1.1);
+}
+.price {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.price h1 {
+    font-size: 20px;
+}
+.price h2 {
+    font-weight: 400;
+}
+.price button {
+    font-size: 13px;
+}
+.price button:hover {
+    cursor: pointer;
+}
+.get_started_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border: transparent;
+    border-radius: 5px;
+    gap: 7px;
+    padding: 6px;
+}
+.get_started_btn i {
+    font-size: 20px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+}
+.features h5 {
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+}
+.features_explore {
+    display: flex;
+    align-items: center;
+}
+.features_explore:hover {
+    color: #0173CA;
+    cursor: pointer;
+}
+.features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.features li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.features ul li p {
+    max-width: 200px;
+}
